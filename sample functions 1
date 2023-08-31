@@ -1,0 +1,19 @@
+#function tells positive & negative number
+
+def integer_function(listoe):
+    positive =[]
+    negative =[]
+    for number33 in listoe:
+        if number33 > 0:
+            positive.append(number33)
+        else:
+            pass
+
+    for number44 in listoe:
+        if number44 < 0:
+            negative.append(number33)
+        else:
+            pass
+        
+    return positive
+    return negative
